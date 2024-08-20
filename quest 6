@@ -1,0 +1,19 @@
+# quest-6-
+
+#include <stdio.h>
+#include <math.h> 
+
+int main() {
+    double raio, area;
+
+    
+    printf("Digite o raio do círculo: ");
+    scanf("%lf", &raio);
+
+    
+    area = M_PI * raio * raio;
+
+    
+    printf("A área do círculo com raio %.2f é %.2f\n", raio, area);
+
+    return 0;
